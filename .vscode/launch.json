@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "c:\\Users\\josef\\OneDrive\\Documentos\\GitHub\\Projeto-D\\index.html"
+            "file": "file:///C:/Users/jose.pereira264/Documents/GitHub/Projeto-D/index.html"
         }
     ]
 }
