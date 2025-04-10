@@ -5,35 +5,35 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Projeto D</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        <link rel="stylesheet" href="./personagens.css">
+        <link rel="stylesheet" href="../css/personagens.css">
         <!---->
   </head>
   <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <!--Navegação inicial do site-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="../index.html">R.A.V.E.N</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+    <nav class="navbar navbar-expand-lg nav">
+        <div class="container-fluid nav">
+          <a class="navbar-brand" href="../index.html"><span class="TextoGeral" id="Titulo">R.A.V.E.N</span></a>
+          <button class="navbar-toggler menu-aberto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="btn-menu-aberto">
+            <img src="../imgs/menu-aberto.png" id="menu-aberto" alt="menu-aberto">
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./pesonagens.html">Personagens</a>
+                <a class="nav-link active" aria-current="page" href="./pesonagens.html"><span class="TextoGeral">Personagens</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../mesas e criação/mesas.html">Mesas</a>
+                <a class="nav-link" href="./mesas.html"><span class="TextoGeral">Mesas</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../criaturas & monstros/criaturas&monstros.html">Criaturas & Monstros</a>
+                <a class="nav-link" href="./criaturas&monstros.html"><span class="TextoGeral">Criaturas & Monstros</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../regras da casa/regrasdacasa.html">Regras da casa</a>
+                <a class="nav-link" href="./regrasdacasa.html"><span class="TextoGeral">Regras da casa</span></a>
               </li>
               <li class="nav-item">
                 <!--Colocar o link do catarse-->
-                <a class="nav-link" href="#">Honras</a>
+                <a class="nav-link" href="#"><span class="TextoGeral">Honras</span></a>
               </li>
             </ul>
           </div>
@@ -42,14 +42,14 @@
     <main>
         <!--Botão de criação de ficha-->
         <div class="d-flex justify-content-end" id="NovoPersonagem-DIV">
-          <button class="btn btn-primary d-block ali" id="NovoPersonagem-BTN" type="submit">Novo personagem</button>
+          <button class="btn btn-primary d-block ali" id="NovoPersonagem-BTN" type="submit"><span class="TextoGeral">Novo personagem</span></button>
         </div>
         <!--Atualizador de quantidade de fihas criadas-->
           <!--Vai aparecer somente quando tiver a quantiadade máxima de cada fixa-->
         <!--Parte de busca por nome de persongaem-->
         <form class="d-flex" role="search">
           <label for="search" id="lb-Barra_de_pesquisa">
-            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+            <input class="form-control" id="busca" type="search" placeholder="Buscar" aria-label="Buscar">
           </label>
         </form>
         <!--Personagens feitos-->
