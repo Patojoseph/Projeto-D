@@ -1,0 +1,44 @@
+.TextoGeral{
+    color: #fff;
+    border-bottom: 2px solid transparent;
+    transition: 0.6s ease;
+}
+
+.TextoEspecial{
+    color: #fff;
+    border-bottom: 2px solid transparent;
+    transition: 0.5s ease-in;
+}
+
+.TextoEspecial:hover{
+    border-bottom: 1px solid #fff;
+}
+
+
+.TextoGeral:hover{
+    color: #e01f1f;
+    border-bottom: 2px solid #e01f1f;
+}
+
+body{
+    background-color: #09090B;
+}
+
+.pagina-escolhida{
+    color: #e01f1f;
+    border-bottom: 2px solid #e01f1f;
+    transition: 0.5s ease-in-out;
+}
+
+.pagina-escolhida:hover{
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.nav{
+    background-color: #18181B;
+}
+
+#Titulo{
+    margin-left: 10%;
+}

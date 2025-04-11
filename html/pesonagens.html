@@ -6,6 +6,7 @@
         <title>Projeto D</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <link rel="stylesheet" href="../css/personagens.css">
+        <link rel="stylesheet" href="../css/index.css">
         <!---->
   </head>
   <body>
@@ -14,13 +15,15 @@
     <nav class="navbar navbar-expand-lg nav">
         <div class="container-fluid nav">
           <a class="navbar-brand" href="../index.html"><span class="TextoGeral" id="Titulo">R.A.V.E.N</span></a>
-          <button class="navbar-toggler menu-aberto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="btn-menu-aberto">
-            <img src="../imgs/menu-aberto.png" id="menu-aberto" alt="menu-aberto">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="btn-menu-aberto">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-list" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+            </svg>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./pesonagens.html"><span class="TextoGeral">Personagens</span></a>
+                <a class="nav-link active" aria-current="page" href="./pesonagens.html"><span class="TextoGeral pagina-escolhida">Personagens</span></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./mesas.html"><span class="TextoGeral">Mesas</span></a>
@@ -42,7 +45,7 @@
     <main>
         <!--Botão de criação de ficha-->
         <div class="d-flex justify-content-end" id="NovoPersonagem-DIV">
-          <button class="btn btn-primary d-block ali" id="NovoPersonagem-BTN" type="submit"><span class="TextoGeral">Novo personagem</span></button>
+          <button class="btn btn-primary d-block ali" id="NovoPersonagem-BTN" type="submit"><span class="TextoEspecial">Novo personagem</span></button>
         </div>
         <!--Atualizador de quantidade de fihas criadas-->
           <!--Vai aparecer somente quando tiver a quantiadade máxima de cada fixa-->
