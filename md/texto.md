@@ -1,0 +1,1 @@
+# Texto explicativo sobre como utlizar as fichas.
