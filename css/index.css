@@ -2,6 +2,8 @@
     color: #fff;
     border-bottom: 2px solid transparent;
     transition: 0.6s ease;
+    font-size: clamp(1rem, 2vw, 2rem);
+
 }
 
 
@@ -23,6 +25,8 @@
 
 .TextoExplicativo{
     color: #fff;
+    font-size: clamp(1rem, 2vw, 2rem);
+
 }
 
 .TextoExplicativoEspecial{

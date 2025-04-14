@@ -2,7 +2,6 @@
     width: 50%;
     margin-left: 3%;
     margin-right: 10%;
-    font-size: 30px;
 }
 
 #criação-de-fichas{
@@ -10,14 +9,15 @@
 }
 
 #TituloExplicativoCriaçãoFichas{
-    font-size: 40px;
+    font-size: clamp(1rem, 2vw, 2rem);
+
 }
 
 #link-button-personagens{
     background-color: transparent;
     border-color: #e01f1f;
     color: #e01f1f;
-    width: 40%;
+    width: 100%;
     transition: 0.3s ease-in;
 }
 
@@ -29,4 +29,40 @@
 
 #link-button-personagens-label{
     width: 60%;
+}
+
+#link-button-personagens-texto{
+    font-size: clamp(1rem, 2vw, 2rem);
+}
+
+#mesas-explicação{
+    width: 50%;
+    margin-left: 3%;
+    margin-right: 10%;
+}
+
+#mesas{
+    margin-top: 10%;
+}
+
+#link-button-mesas{
+    background-color: transparent;
+    border-color: #e01f1f;
+    color: #e01f1f;
+    width: 100%;
+    transition: 0.3s ease-in;
+}
+
+#link-button-mesas:hover{
+    background-color: #e01f1f;
+    border: transparent;
+    color: #fff;
+}
+
+#link-button-mesas-label{
+    width: 60%;
+}
+
+#link-button-mesas-texto{
+    font-size: clamp(1rem, 2vw, 2rem);
 }
