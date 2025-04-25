@@ -53,6 +53,21 @@
     margin-left: 2%;
 }
 
-#img-personagem{
+.img-personagem{
     margin-right: 2%;
+    /*tamanho padrão das imagens de acordo com o cris é 120x127*/
+    width: 100%;
+    height: 80%;
+    margin-top: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+#img-personagem-client{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: object-positon 0.3s;
+    display: block;
 }
