@@ -20,7 +20,8 @@
 
 #lb-Barra_de_pesquisa{
     margin: auto;
-    width: 80%;
+    margin-bottom: 2%;
+    width: 100%;
 }
 
 .nav{
@@ -63,11 +64,27 @@
     border-radius: 10px;
 }
 
-#img-personagem-client{
+.img-personagem-client{
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
     transition: object-positon 0.3s;
     display: block;
+}
+
+.btg-acesso-ficha{
+    background-color: #e01f1f;
+    border-color: #e01f1f;
+    font-weight: 450;
+}
+
+.btg-acesso-ficha:hover{
+    background-color: #ca1919;
+    border-color: #ca1919;
+}
+
+.TextoBtg{
+    color: #fff;
+    font-size: clamp(0.8rem, 1vw, 1rem);
 }
