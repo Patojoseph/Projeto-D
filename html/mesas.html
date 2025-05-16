@@ -43,14 +43,16 @@
           </div>
         </div>
     </nav>
-    <main>
+    <main class="container">
       <!--Div principal com tudo pronto-->
       <div>
         <!--Btg de criar nova mesa-->
-        <button type="button" class="btn btn-danger">Criar nova Campanha</button>
+        <div class="d-flex justify-content-end">
+          <button type="button" id="BTG-criar-ficha" class="btn btn-danger">Criar nova mesa</button>
+        </div>
         <!--Parte das mesas/campanhas não importa muito o nome delas-->
-        <div >
-          <h3>Campanhas 1/6</h3>
+        <div>
+          <h3 class="TextoExplicativo">Campanhas 1/6</h3>
           <!--Grid com todas as mesas, fazer um grid de 6 lugares 3x3-->
           <div class="container mt-4">
             <div class="row">
@@ -58,24 +60,24 @@
                 <!--Imagem de fundo da criação das mesas-->
                 <div class="img-background"></div>
                 <!--Indicador de quantidade de jogadores presentes-->
-                <div class="mesa-content">
+                <div class="mesa-content d-flex justify-content-end" id="mesa-number-pessoas">
+                  <!--Texto com a quantidade de jogadores que estão presentes-->
+                  <div class="mesa-content"><p class="TextoExplicativo text-center" id="text-number-players">10</p></div>
                   <!--Icone de jogadores, utilizar um pronto, mas fazer o icone no photoshop, presente em ideias de icone.md-->
                   <div>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffff" class="bi bi-people-fill" viewBox="0 0 16 16">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="80%" height="80%" fill="#ffff" class="bi bi-people-fill" viewBox="0 0 16 16">
                       <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/>
                     </svg>
                   </div>
-                  <!--Texto com a quantidade de jogadores que estão presentes-->
-                  <div class="mesa-content"><p class="TextoExplicativo"> [número de pessoas]</p></div>
                 </div>
                 <!--Info e acesso a mesas-->
                 <div class="mesa-content">
                   <!--Infos técnicas-->
                   <div>
                     <!--Nome da mesa-->
-                    <div></div>
+                    <div><span>[Nome da Mesa]</span></div>
                     <!--Quando foi criada e sua função, como ADM ou PLY-->
-                    <div></div>
+                    <div><span>[Criada em xx/xx/xx] [Função: ADM]</span></div>
                   </div>
                   <!--Botão de acesso-->
                   <div>
